@@ -33,14 +33,14 @@
 
     <script>
         const book = document.getElementById('manual');
-        const targetUrl = "https://www.google.com"; // CHANGE THIS to your actual manual URL
+        const targetUrl = "https://www.htwsaar.de/studium-und-lehre/service-und-beratung/rund-ums-studium/praxisreferat/pi"; 
 
-        // 1. Start animation immediately or on click
+        
         window.onload = () => {
             setTimeout(() => {
                 book.classList.add('open');
                 
-                // 2. Redirect after the animation finishes
+                
                 setTimeout(() => {
                     window.location.href = targetUrl;
                 }, 3000); 
